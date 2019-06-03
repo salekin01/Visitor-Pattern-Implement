@@ -19,7 +19,6 @@ public class TreeInitiator implements IVisitor  {
 	@Override
 	public void visit(LeafSum leafSum) {
 		leafSum.calculateTotalValuesOfLeafs(root);
-		
 	}
 
 	@Override
